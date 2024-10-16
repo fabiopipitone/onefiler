@@ -1,0 +1,29 @@
+# .gitignore
+
+# Byte-compiled / optimized / DLL files
+*__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environment
+*venv/
+.env/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# OS files
+.DS_Store
+
+# Config files
+*.vscode
+config.yml
+
+# Tests
+*.csv
